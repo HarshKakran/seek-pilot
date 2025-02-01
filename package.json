@@ -1,0 +1,25 @@
+{
+  "name": "seek-pilot",
+  "displayName": "seek-pilot",
+  "description": "An AI-powered VS Code assistant using an open-source LLM",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "",
+      "aliases": ["", ""],
+      "extensions": [""],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "",
+      "scopeName": "",
+      "path": "./syntaxes/.tmLanguage.json"
+    }]
+  }
+}
